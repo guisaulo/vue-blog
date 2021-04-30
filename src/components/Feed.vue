@@ -19,12 +19,11 @@
 
 <script>
 export default {
-  name: 'Home-feed'
+  name: 'Feed'
 }
 </script>
 
 <style scoped>
-
 .feed{
   background-color: white;
   width: 500px; 
@@ -32,14 +31,14 @@ export default {
   padding: 10px;
 }
 
-.feed-item{
+.feed .feed-item{
   background-color: white ;
   width: 300px; 
   margin: 0 auto;
   padding: 10px;   
 }
 
-h1 { 
+.feed h1 { 
   color: #0e0d0df1; 
   font-family: 'Raleway',sans-serif; 
   font-size: 30px; 
@@ -49,7 +48,7 @@ h1 {
   text-align: center; 
 }
 
-h2 { 
+.feed h2 { 
   color: #051250e1; 
   font-family: 'Raleway',sans-serif; 
   font-size: 18px; 
@@ -57,7 +56,7 @@ h2 {
   text-align: center; 
 }
 
-p { 
+.feed p { 
   color: #302e2ee3; 
   font-family: 'Raleway',sans-serif; 
   font-size: 13px; 

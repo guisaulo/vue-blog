@@ -1,20 +1,17 @@
 <template>
-  <Home 
-  titleBlog="Seu nome"   
-  biography="Coloque aqui sua biografia de forma resumida. Coloque aqui sua biografia de forma resumida. Coloque aqui sua biografia."/>
-  <Home-feed />
-
+  <NavBar/>
+  <Home/>
 </template>
 
 <script>
-import HomeFeed from './components/Home-feed.vue'
-import Home from './components/Home.vue'
+import NavBar from './components/NavBar'
+import Home from './pages/Home'
 
 export default {
   name: 'App',
   components: {
-    Home,
-    HomeFeed
+    NavBar,
+    Home
   }
 }
 </script>
@@ -25,6 +22,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 </style>
